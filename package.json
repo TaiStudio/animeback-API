@@ -1,0 +1,29 @@
+{
+  "name": "animeback-api",
+  "version": "1.0.0",
+  "description": "api d'animeback",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "update": "script/autoupdater.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaiStudio/animeback-API.git"
+  },
+  "keywords": [
+    "tai-studio",
+    "api",
+    "animeback"
+  ],
+  "dependencies": {
+    "@taistudio/animeback-submit": "^1.51.0"
+  },
+  "devDependencies": {},
+  "author": "Tai Studio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TaiStudio/animeback-API/issues"
+  },
+  "homepage": "https://github.com/TaiStudio/animeback-API#readme"
+}
