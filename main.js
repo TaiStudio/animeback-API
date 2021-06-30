@@ -1,13 +1,3 @@
-const express = require("express");
-const animeback_submit = require("@taistudio/animeback-submit");
-const app = express();
-const port = process.env.PORT || 3000;
-
-app.get("/", (req, res) => {
-    res.header("Content-Type", "application/json");
-    res.send(animeback_submit);
-});
-
-app.listen(port, () => {
-    console.log(`Server running at port: ${port}`);
-});
+const animeback_submit = require('@taistudio/animeback-submit');
+const fs = require('fs');
+fs.writeFileSync('index.json', JSON.stringify(animeback_submit));

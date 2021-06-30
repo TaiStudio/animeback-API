@@ -4,8 +4,7 @@
   "description": "api d'animeback",
   "main": "main.js",
   "scripts": {
-    "build": "node builder.js",
-    "start": "node main.js",
+    "build": "node main.js",
     "update": "script/autoupdater.sh"
   },
   "repository": {
@@ -18,8 +17,7 @@
     "animeback"
   ],
   "dependencies": {
-    "@taistudio/animeback-submit": "^1.51.0",
-    "cheerio": "*"
+    "@taistudio/animeback-submit": "^1.51.0"
   },
   "devDependencies": {},
   "author": "Tai Studio",
