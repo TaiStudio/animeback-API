@@ -1,0 +1,16 @@
+on: workflow_dispatch
+
+name: Update
+
+jobs:
+  updateDataAndRelease:
+    name: Update data and release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.3.4
+      - name: Chmod
+        run: chmod +x ./autoupdater.sh
+      - name: Update
+        run: npm run update
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
