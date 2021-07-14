@@ -17,7 +17,6 @@ npm upgrade
 # bail if nothing changed
 if [ "$(git status --porcelain)" = "" ]; then
   echo "no new content found; goodbye!"
-  npm start
   exit
 fi
 
