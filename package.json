@@ -1,5 +1,5 @@
 {
-  "name": "animeback-api",
+  "name": "@taistudio/animeback-api",
   "version": "1.0.0",
   "description": "api d'animeback",
   "main": "main.js",
