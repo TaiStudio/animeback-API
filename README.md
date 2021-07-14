@@ -1,7 +1,3 @@
-# animeback-API
-Animeback API
-
-
 # animeback-API [![Continous Integration](https://github.com/TaiStudio/animeback-API/actions/workflows/schedule.yml/badge.svg)](https://github.com/TaiStudio/animeback-submit/actions/workflows/schedule.yml)
 
 <p align='center'>
