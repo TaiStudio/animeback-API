@@ -5,7 +5,7 @@ set -o errexit    # always exit on error
 set -o pipefail   # honor exit codes when piping
 set -o nounset    # fail on unset variables
 
-git clone "https://AnimeBack-Bot:$GH_TOKEN@github.com/TaiStudio/animeback-submit" update
+git clone "https://AnimeBack-Bot:$GH_TOKEN@github.com/TaiStudio/animeback-API" update
 cd update
 npm ci
 
@@ -26,5 +26,5 @@ git config user.name AnimeBack-Bot
 git add .
 git commit -am "🤖⬆️ update version" --author "AnimeBack-Bot <animebot.tai.studio@outlook.fr>"
 git pull --rebase
-git push origin master
-git push origin master --tags
+git push origin main
+git push origin main --tags
